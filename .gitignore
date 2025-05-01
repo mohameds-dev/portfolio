@@ -40,5 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# my custom scripts
-git_go.sh
+# my custom scripts / temp files
+my_scripts/*
+out.txt
+
