@@ -22,7 +22,7 @@ export default function Projects() {
         <div className="flex justify-center">
           <div className="flex flex-wrap justify-center gap-6 p-6 border border-gray-200 dark:border-gray-700 rounded-xl bg-white/50 dark:bg-gray-800/50 backdrop-blur-sm">
             {projectsWithSkills.map((project) => (
-              <div key={project.title} className="max-w-sm">
+              <div key={project.title} className="w-[350px]">
                 <ProjectCard {...project} />
               </div>
             ))}

@@ -1,5 +1,30 @@
 {
   "skills": {
+    "cpp": {
+      "name": "C++",
+      "icon": "SiCplusplus",
+      "color": "#00599C"
+    },
+    "java": {
+      "name": "Java",
+      "icon": "SiJava",
+      "color": "#007396"
+    },
+    "python": {
+      "name": "Python",
+      "icon": "SiPython",
+      "color": "#3776AB"
+    },
+    "flutter": {
+      "name": "Flutter",
+      "icon": "SiFlutter",
+      "color": "#02569B"
+    },
+    "django": {
+      "name": "Django",
+      "icon": "SiDjango",
+      "color": "#092E20"
+    },
     "react": {
       "name": "React",
       "icon": "FaReact",
@@ -8,6 +33,46 @@
     "nextjs": {
       "name": "Next.js",
       "icon": "SiNextdotjs"
+    },
+    "sql": {
+      "name": "SQL",
+      "icon": "SiPostgresql",
+      "color": "#336791"
+    },
+    "sqlite": {
+      "name": "SQLite",
+      "icon": "SiSqlite",
+      "color": "#003B57"
+    },
+    "html": {
+      "name": "HTML",
+      "icon": "SiHtml5",
+      "color": "#E34F26"
+    },
+    "css": {
+      "name": "CSS",
+      "icon": "SiCss3",
+      "color": "#1572B6"
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "icon": "SiJavascript",
+      "color": "#F7DF1E"
+    },
+    "docker": {
+      "name": "Docker",
+      "icon": "SiDocker",
+      "color": "#2496ED"
+    },
+    "git": {
+      "name": "Git",
+      "icon": "SiGit",
+      "color": "#F05032"
+    },
+    "vscode": {
+      "name": "VSCode",
+      "icon": "SiVisualstudiocode",
+      "color": "#007ACC"
     },
     "tailwind": {
       "name": "Tailwind CSS",

@@ -2,36 +2,45 @@
   "projects": [
     {
       "title": "Project 1",
-      "description": "Description of Project 1",
-      "image": "https://via.placeholder.com/150",
+      "description": "A web application for managing projects and tasks, Created by me and my team of excellent developers",
+      "image": "https://placehold.co/600x400",
       "link": "https://www.google.com",
-      "skills": ["react", "nextjs", "tailwind"]
+      "skills": [
+        "react",
+        "nextjs",
+        "tailwind",
+        "django",
+        "cpp",
+        "java",
+        "python",
+        "flutter"
+      ]
     },
     {
       "title": "Project 2",
       "description": "Description of Project 2",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://placehold.co/600x400",
       "link": "https://www.google.com",
       "skills": ["react", "nodejs"]
     },
     {
       "title": "Project 3",
       "description": "Description of Project 3",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://placehold.co/600x400",
       "link": "https://www.google.com",
       "skills": ["nextjs", "tailwind"]
     },
     {
       "title": "Project 4",
       "description": "Description of Project 4",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://placehold.co/600x400",
       "link": "https://www.google.com",
       "skills": ["react", "nodejs", "tailwind"]
     },
     {
       "title": "Project 5",
       "description": "Description of Project 5",
-      "image": "https://via.placeholder.com/150",
+      "image": "https://placehold.co/600x400",
       "link": "https://www.google.com",
       "skills": ["nextjs", "nodejs"]
     }

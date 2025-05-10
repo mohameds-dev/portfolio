@@ -1,12 +1,10 @@
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
-
+import { Skill } from "./Skill";
 
 export function ProjectCard(props) {
   const { title, description, image, link, skills } = props;
 
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 max-w-sm">
+    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 w-full">
       <div className="relative h-48 w-full">
         <img src={image} alt={title} className="w-full h-full object-cover" />
       </div>
@@ -16,9 +14,11 @@ export function ProjectCard(props) {
           {title}
         </h2>
 
-        <p className="text-gray-600 dark:text-gray-300 mb-4">{description}</p>
+        <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-2 h-12">
+          {description}
+        </p>
 
-        <div className="flex flex-wrap gap-2 mb-4">
+        <div className="flex flex-wrap gap-3 mb-4 h-16">
           {skills.map((skill, index) => (
             <Skill key={index} skill={skill} />
           ))}
