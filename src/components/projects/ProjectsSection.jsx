@@ -2,7 +2,7 @@ import { ProjectCard } from "@/components/ProjectCard";
 import projectsData from "@/data/projects.json";
 import skillsData from "@/data/skills.json";
 
-export default function Projects() {
+export default function ProjectsSection() {
   const { projects } = projectsData;
   const { skills } = skillsData;
 
