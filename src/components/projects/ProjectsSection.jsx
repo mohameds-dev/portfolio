@@ -1,4 +1,4 @@
-import { ProjectCard } from "@/components/ProjectCard";
+import { ProjectCard } from "@/components/projects/ProjectCard";
 import projectsData from "@/data/projects.json";
 import skillsData from "@/data/skills.json";
 
@@ -6,7 +6,6 @@ export default function ProjectsSection() {
   const { projects } = projectsData;
   const { skills } = skillsData;
 
-  // Combine project data with skill data
   const projectsWithSkills = projects.map((project) => ({
     ...project,
     skills: project.skills.map((skillKey) => skills[skillKey]),

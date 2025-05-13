@@ -17,7 +17,7 @@ import {
   SiVisualstudiocode,
 } from "react-icons/si";
 
-// Create a mapping of icon names to their components
+
 const iconMap = {
   FaReact,
   FaNodeJs,

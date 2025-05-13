@@ -1,4 +1,4 @@
-import { Skill } from "./Skill";
+import { Skill } from "../Skill";
 
 export function ProjectCard(props) {
   const { title, description, image, link, skills } = props;
