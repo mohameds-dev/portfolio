@@ -1,4 +1,4 @@
-import { Skill } from "./Skill";
+import { Skill } from "../Skill";
 
 export function ProjectCard(props) {
   const { title, description, image, link, skills } = props;
@@ -14,7 +14,7 @@ export function ProjectCard(props) {
           {title}
         </h2>
 
-        <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-2 h-12">
+        <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-5 h-35">
           {description}
         </p>
 
