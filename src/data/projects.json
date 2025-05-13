@@ -1,11 +1,18 @@
 {
   "projects": [
     {
+      "title": "Portfolio Website",
+      "description": "A portfolio website for me to showcase my projects and skills.",
+      "image": "images/mo-hero-1.JPG",
+      "link": "www.google.com",
+      "skills": ["nextjs", "tailwind", "react", "git"]
+    },
+    {
       "title": "Nota",
       "description": "A mobile app for taking notes offline and sorting them by labels using Flutter and SQLite.",
       "image": "images/nota-ss1.png",
-      "link": "https://www.google.com",
-      "skills": ["flutter", "dart", "sqlite"]
+      "link": "https://github.com/mohameds-dev/nota",
+      "skills": ["flutter", "dart", "sqlite", "git"]
     }
   ]
 }
