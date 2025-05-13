@@ -1,4 +1,4 @@
-import { ProjectCard } from "@/components/ProjectCard";
+import { ProjectCard } from "@/components/projects/ProjectCard";
 import projectsData from "@/data/projects.json";
 import skillsData from "@/data/skills.json";
 
@@ -6,14 +6,13 @@ export default function ProjectsSection() {
   const { projects } = projectsData;
   const { skills } = skillsData;
 
-  // Combine project data with skill data
   const projectsWithSkills = projects.map((project) => ({
     ...project,
     skills: project.skills.map((skillKey) => skills[skillKey]),
   }));
 
   return (
-    <section className="py-12 px-4 md:px-8">
+    <section id="projects" className="py-12 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
           Featured Projects
