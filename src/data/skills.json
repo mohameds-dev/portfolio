@@ -18,7 +18,12 @@
     "flutter": {
       "name": "Flutter",
       "icon": "SiFlutter",
-      "color": "#02569B"
+      "color": "#1a8ed2"
+    },
+    "dart": {
+      "name": "Dart",
+      "icon": "SiDart",
+      "color": "#0075E2"
     },
     "django": {
       "name": "Django",
@@ -32,17 +37,18 @@
     },
     "nextjs": {
       "name": "Next.js",
-      "icon": "SiNextdotjs"
+      "icon": "SiNextdotjs",
+      "color": "#000000"
     },
-    "sql": {
-      "name": "SQL",
+    "postgresql": {
+      "name": "PostgreSQL",
       "icon": "SiPostgresql",
       "color": "#336791"
     },
     "sqlite": {
       "name": "SQLite",
       "icon": "SiSqlite",
-      "color": "#003B57"
+      "color": "#1a8ed2"
     },
     "html": {
       "name": "HTML",
@@ -86,4 +92,3 @@
     }
   }
 }
- 

@@ -15,8 +15,8 @@ import {
   SiDocker,
   SiGit,
   SiVisualstudiocode,
+  SiDart,
 } from "react-icons/si";
-
 
 const iconMap = {
   FaReact,
@@ -36,6 +36,7 @@ const iconMap = {
   SiDocker,
   SiGit,
   SiVisualstudiocode,
+  SiDart,
 };
 
 export function Skill({ skill }) {
@@ -49,8 +50,14 @@ export function Skill({ skill }) {
 
   return (
     <div className="group relative">
-      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 dark:bg-gray-700 transition-all duration-300">
-        <Icon className="w-5 h-5" style={{ color }} />
+      <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white dark:bg-gray-100 transition-all duration-300 shadow-sm">
+        <Icon
+          className="w-7 h-7 drop-shadow-sm"
+          style={{
+            color,
+            filter: "drop-shadow(0 1px 1px rgba(0, 0, 0, 2.0))",
+          }}
+        />
       </div>
       <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 px-3 py-1 bg-gray-800 text-white text-sm rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 whitespace-nowrap z-10">
         {name}
