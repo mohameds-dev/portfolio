@@ -1,4 +1,4 @@
-import { Skill } from "../Skill";
+import { Skill } from "@/components/projects/ProjectSkill";
 
 export function ProjectCard(props) {
   const { title, description, image, link, skills } = props;
@@ -19,9 +19,8 @@ export function ProjectCard(props) {
         </p>
 
         <div className="flex flex-wrap gap-3 mb-4 h-16">
-          {skills.map((skill, index) => (
-            <Skill key={index} skill={skill} />
-          ))}
+          {skills &&
+            skills.map((skill, index) => <Skill key={index} skill={skill} />)}
         </div>
 
         <a
