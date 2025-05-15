@@ -1,15 +1,8 @@
 import { ProjectCard } from "@/components/projects/ProjectCard";
-import projectsData from "@/data/projects.json";
-import skillsData from "@/data/skills.json";
+import { loadProjectsWithSkills } from "@/utils/utils";
 
 export default function ProjectsSection() {
-  const { projects } = projectsData;
-  const { skills } = skillsData;
-
-  const projectsWithSkills = projects.map((project) => ({
-    ...project,
-    skills: project.skills.map((skillKey) => skills[skillKey]),
-  }));
+  const projectsWithSkills = loadProjectsWithSkills();
 
   return (
     <section id="projects" className="py-12 px-4 md:px-8">

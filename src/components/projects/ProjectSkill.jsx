@@ -1,50 +1,47 @@
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaGithub } from "react-icons/fa";
 import {
-  SiNextdotjs,
-  SiTailwindcss,
-  SiCplusplus,
-  SiJava,
-  SiPython,
-  SiFlutter,
-  SiDjango,
-  SiPostgresql,
-  SiSqlite,
   SiHtml5,
   SiCss3,
   SiJavascript,
+  SiCplusplus,
+  SiPython,
+  SiDjango,
+  SiFlutter,
   SiDocker,
   SiGit,
-  SiVisualstudiocode,
-  SiDart,
+  SiMysql,
+  SiJira,
+  SiJest,
+  SiPostman,
+  SiNextdotjs,
+  SiTailwindcss,
 } from "react-icons/si";
 
 const iconMap = {
   FaReact,
-  FaNodeJs,
-  SiNextdotjs,
-  SiTailwindcss,
-  SiCplusplus,
-  SiJava,
-  SiPython,
-  SiFlutter,
-  SiDjango,
-  SiPostgresql,
-  SiSqlite,
+  FaGithub,
   SiHtml5,
   SiCss3,
   SiJavascript,
+  SiCplusplus,
+  SiPython,
+  SiDjango,
+  SiFlutter,
   SiDocker,
   SiGit,
-  SiVisualstudiocode,
-  SiDart,
+  SiMysql,
+  SiJira,
+  SiJest,
+  SiPostman,
+  SiNextdotjs,
+  SiTailwindcss,
 };
 
 export function Skill({ skill }) {
-  const { name, icon, color } = skill;
-  const Icon = iconMap[icon];
+  const { name, icon: Icon, color } = skill;
 
   if (!Icon) {
-    console.warn(`Icon ${icon} not found for skill ${name}`);
+    console.warn(`Icon not found for skill ${name}`);
     return null;
   }
 
