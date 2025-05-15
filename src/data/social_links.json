@@ -1,0 +1,29 @@
+{
+  "socialLinks": [
+    {
+      "name": "LinkedIn",
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/msabdelrahman02/"
+    },
+    {
+      "name": "Codeforces",
+      "icon": "SiCodeforces",
+      "url": "https://codeforces.com/profile/mosalah_02"
+    },
+    {
+      "name": "LeetCode",
+      "icon": "SiLeetcode",
+      "url": "https://leetcode.com/u/mrmosa02/"
+    },
+    {
+      "name": "GitHub",
+      "icon": "FaGithub",
+      "url": "https://github.com/mohameds-dev"
+    },
+    {
+      "name": "HackerRank",
+      "icon": "SiHackerrank",
+      "url": "https://www.hackerrank.com/profile/agentmohamed_47"
+    }
+  ]
+}
