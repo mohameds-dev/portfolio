@@ -1,6 +1,8 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiCodeforces, SiLeetcode, SiHackerrank } from "react-icons/si";
 import socialLinksData from "@/data/social_links.json";
+import projectsData from "@/data/projects.json";
+import skillsData from "@/data/skills.json";
 
 // Map of icon names to their components
 const iconMap = {
@@ -21,5 +23,19 @@ export const loadSocialLinks = () => {
   return socialLinks.map((link) => ({
     ...link,
     icon: iconMap[link.icon],
+  }));
+};
+
+/**
+ * Loads and processes projects data with their associated skills
+ * @returns {Array} Array of projects with their skills data
+ */
+export const loadProjectsWithSkills = () => {
+  const { projects } = projectsData;
+  const { skills } = skillsData;
+
+  return projects.map((project) => ({
+    ...project,
+    skills: project.skills.map((skillKey) => skills[skillKey]),
   }));
 };
