@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "Ordered Map library in C++",
+      "description": "A C++ library for a map that preserves the order of insertion.",
+      "image": "images/OrderedMap thumbnail.png",
+      "link": "https://github.com/mohameds-dev/ordered_map_lib",
+      "skills": ["cpp", "git"]
+    },
+    {
       "title": "Portfolio Website",
       "description": "A portfolio website for me to showcase my projects and skills.",
       "image": "images/mo-hero-1.JPG",
@@ -9,7 +16,7 @@
     },
     {
       "title": "Nota",
-      "description": "A mobile app for taking notes offline and sorting them by labels using Flutter and SQLite.",
+      "description": "A mobile app for taking notes offline and filtering them by labels using Flutter and SQLite.",
       "image": "images/nota-ss1.png",
       "link": "https://github.com/mohameds-dev/nota",
       "skills": ["flutter", "dart", "sqlite", "git"]
