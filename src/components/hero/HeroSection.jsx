@@ -26,7 +26,7 @@ export default function HeroSection() {
             Contact Me
           </a>
           <a
-            href="https://github.com/mohameds-dev/resume/blob/my-resume/Mohamed_Abdelrahman_Resume_2025.pdf"
+            href="https://github.com/mohameds-dev/resume/blob/my-resume/Mohamed_Abdelrahman_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors duration-300"
