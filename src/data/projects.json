@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "TallyCart (in progress ⏳️)",
+      "description": "An AI-powered grocery optimizer that transforms raw receipt data into cost-saving shopping strategies.",
+      "image": "images/TallyCart_thumbnail.png",
+      "link": "https://github.com/mohameds-dev/TallyCart",
+      "skills": ["python", "django", "docker", "git"]
+    },
+    {
       "title": "Ordered Map library in C++",
       "description": "A C++ library for a map that preserves the order of insertion.",
       "image": "images/OrderedMap thumbnail.png",
