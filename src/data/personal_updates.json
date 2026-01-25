@@ -1,21 +1,13 @@
 [
     {
-        "title": "Update title",
-        "content": "Update content in markdown format",
-        "date": "2026-01-25",
-        "tags": ["tag1", "tag2", "tag3"],
-        "images": [
-            "/images/TallyCart_thumbnail.png",
-            "/images/OrderedMap thumbnail.png"
-        ]
-    },
-    {
-        "title": "Got a Golden Medal at ICPC 2025 South Regionals for placing First at UH Site",
-        "content": "Update content in markdown format",
+        "title": "ICPC 2025 South Regionals Gold - 1st Place @ UH Site",
+        "content": "Secured a gold medal at ICPC 2025 South Regionals by placing first at the UH site. Always proud to represent my university and deliver strong performances at ICPC. Check out the [ICPC 2025 South Regionals](https://icpc.global/regionals/finder/SCUSA-2026/standings) for more details. Our team name was **CoogLimitExceeded**.",
         "date": "2025-11-8",
         "tags": ["ICPC", "Competitive Programming", "C++"],
         "images": [
-            "/images/OrderedMap thumbnail.png"
+            "/images/updates/icpc1.jfif",
+            "/images/updates/icpc3.jfif",
+            "/images/updates/icpc2.jfif"
         ]
     }
 

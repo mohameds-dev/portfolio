@@ -46,14 +46,14 @@ export function UpdateCard({ title, content, date, tags = [], images = [] }) {
       {/* Content */}
       <div className="px-5 pb-4">
         <div
-          className={`text-gray-700 dark:text-gray-300 prose prose-sm dark:prose-invert max-w-none transition-all duration-300 ${
+          className={`text-gray-700 dark:text-gray-300 prose prose-xs dark:prose-invert max-w-none transition-all duration-300 text-sm ${
             isExpanded ? "" : "line-clamp-3"
           }`}
         >
           <ReactMarkdown
             components={{
               p: ({ node, ...props }) => (
-                <p className="mb-3 leading-relaxed" {...props} />
+                <p className="mb-2 leading-relaxed text-sm" {...props} />
               ),
               strong: ({ node, ...props }) => (
                 <strong className="font-semibold text-gray-900 dark:text-white" {...props} />
@@ -62,10 +62,10 @@ export function UpdateCard({ title, content, date, tags = [], images = [] }) {
                 <em className="italic" {...props} />
               ),
               ul: ({ node, ...props }) => (
-                <ul className="list-disc list-inside mb-3 space-y-1 ml-2" {...props} />
+                <ul className="list-disc list-inside mb-2 space-y-1 ml-2 text-sm" {...props} />
               ),
               ol: ({ node, ...props }) => (
-                <ol className="list-decimal list-inside mb-3 space-y-1 ml-2" {...props} />
+                <ol className="list-decimal list-inside mb-2 space-y-1 ml-2 text-sm" {...props} />
               ),
               a: ({ node, ...props }) => (
                 <a
@@ -74,13 +74,13 @@ export function UpdateCard({ title, content, date, tags = [], images = [] }) {
                 />
               ),
               h1: ({ node, ...props }) => (
-                <h1 className="text-xl font-bold mb-2 mt-4 text-gray-900 dark:text-white" {...props} />
+                <h1 className="text-lg font-bold mb-2 mt-3 text-gray-900 dark:text-white" {...props} />
               ),
               h2: ({ node, ...props }) => (
-                <h2 className="text-lg font-semibold mb-2 mt-3 text-gray-900 dark:text-white" {...props} />
+                <h2 className="text-base font-semibold mb-2 mt-2 text-gray-900 dark:text-white" {...props} />
               ),
               h3: ({ node, ...props }) => (
-                <h3 className="text-base font-semibold mb-2 mt-2 text-gray-900 dark:text-white" {...props} />
+                <h3 className="text-sm font-semibold mb-1 mt-2 text-gray-900 dark:text-white" {...props} />
               ),
             }}
           >
