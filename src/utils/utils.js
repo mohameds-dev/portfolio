@@ -103,3 +103,8 @@ export const loadSkillsWithIcons = () => {
 
   return processedSkills;
 };
+
+export const getProjectBySlug = (slug) => {
+  const projectsWithSkills = loadProjectsWithSkills();
+  return projectsWithSkills.find((project) => project.slug === slug);
+};

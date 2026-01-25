@@ -2,31 +2,43 @@
   "projects": [
     {
       "title": "TallyCart (in progress ⏳️)",
+      "slug": "tallycart",
       "description": "An AI-powered grocery optimizer that transforms raw receipt data into cost-saving shopping strategies.",
-      "image": "images/TallyCart_thumbnail.png",
+      "image": "/images/TallyCart_thumbnail.png",
       "link": "https://github.com/mohameds-dev/TallyCart",
-      "skills": ["python", "django", "docker", "git"]
+      "skills": ["python", "django", "docker", "git"],
+      "live_demo_link": null,
+      "markdown_path": "content/tally_card_details.md"
     },
     {
       "title": "Ordered Map library in C++",
+      "slug": "ordered-map",
       "description": "A C++ library for a map that preserves the order of insertion.",
-      "image": "images/OrderedMap thumbnail.png",
+      "image": "/images/OrderedMap thumbnail.png",
       "link": "https://github.com/mohameds-dev/ordered_map_lib",
-      "skills": ["cpp", "git"]
+      "skills": ["cpp", "git"],
+      "live_demo_link": null,
+      "markdown_path": "content/ordered_map_details.md"
     },
     {
       "title": "Portfolio Website",
+      "slug": "portfolio",
       "description": "A portfolio website for me to showcase my projects and skills.",
-      "image": "images/mo-hero-1.JPG",
+      "image": "/images/mo-hero-1.JPG",
       "link": "https://github.com/mohameds-dev/portfolio",
-      "skills": ["nextjs", "tailwind", "react", "git"]
+      "skills": ["nextjs", "tailwind", "react", "git"],
+      "live_demo_link": null,
+      "markdown_path": "content/portfolio_details.md"
     },
     {
       "title": "Nota",
+      "slug": "nota",
       "description": "A mobile app for taking notes offline and filtering them by labels using Flutter and SQLite.",
-      "image": "images/nota-ss1.png",
+      "image": "/images/nota-ss1.png",
       "link": "https://github.com/mohameds-dev/nota",
-      "skills": ["flutter", "dart", "sqlite", "git"]
+      "skills": ["flutter", "dart", "sqlite", "git"],
+      "live_demo_link": null,
+      "markdown_path": "content/nota_details.md"
     }
   ]
 }
