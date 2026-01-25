@@ -7,6 +7,22 @@
         "images": []
     },
     {
+        "title": "Competitions Director at Code Coogs: Leading Workshops & Competitions @ UH",
+        "content": "This Spring, I had the chance to serve as Competitions Director at Code Coogs. Now that the semester's wrapped up, I'm looking back on a truly rewarding experience. All praise to God - الحمد لله\n\nCompetitions are timed contests where participants solve algorithmic problems - like LeetCode, but with a competitive edge. You're racing the clock, optimizing your logic, and sharpening both speed and accuracy to come out on top.\n\nI've mentored students in competitive programming before (shoutout to acmASCIS Student Chapter) but this time I stepped into a role where I shaped the entire journey from problem creation to hosting and leading workshops.\n\n**As Competitions Director, I:**\n\n- ✅ Organized multiple algorithmic competitions on Kattis\n- ✅ Curated problem sets from Kattis by selecting problems that matched the intended topics and difficulty levels\n- ✅ Led workshops on solving problems involving data structures, complexity analysis, number theory, greedy strategies, and graph theory\n- ✅ Solved problems live and encouraged open discussion around different solution paths using C++ and Python\n\nEach session was a chance to reflect, iterate, and improve. I collected feedback (even mid-session when possible), tried new formats, and focused on making the experience more engaging and welcoming.\n\n**💡 A few tips I'd give myself if I were to start over:**\n\n- ➡️ Encourage and embrace all kinds of feedback. Seeing through others' eyes is one of the most valuable ways to learn\n- ➡️ Don't wait till the end of the session to ask for feedback, ask during the session, and do it every session (seriously, every session)\n- ➡️ Ask for input from your peers — people love sharing ideas, especially when they're not the ones doing the work\n- ➡️ Try things differently than in previous seasons. Don't overthink it, just think of it as a chance to grow\n- ➡️ Don't be afraid to run things on your own — it can be challenging, but it helps you grow in ways you don't expect\n\nProud of what we built this semester. Shoutout to Benjamin Guzman for getting me in the loop early on (and replying to my long paragraphs), to Mark Pelico for the backup and support when I needed it, and to Tony Flores for steering the ship that semester. It wouldn't have been the same without you all.\n\nWhat's your experience been like with competitive programming? Whether you're just starting out or deep into it, feel free to reach out. Always happy to chat or help out!",
+        "date": "2025-04-30",
+        "tags": ["Competitive Programming", "Code Coogs", "Workshops", "Leadership", "Problem Solving", "Kattis", "C++", "Python"],
+        "images": [
+            "/images/updates/codecoogs1.jfif",
+            "/images/updates/codecoogs2.jfif",
+            "/images/updates/codecoogs3.jfif",
+            "/images/updates/codecoogs4.jfif",
+            "/images/updates/codecoogs5.jfif",
+            "/images/updates/codecoogs6.jfif",
+            "/images/updates/codecoogs7.jfif",
+            "/images/updates/codecoogs8.jfif"
+        ]
+    },
+    {
         "title": "ICPC 2025 South Regionals Gold - 1st Place @ UH Site",
         "content": "Secured a gold medal at ICPC 2025 South Regionals by placing first at the UH site. Always proud to represent my university and deliver strong performances at ICPC. Check out the [ICPC 2025 South Regionals](https://icpc.global/regionals/finder/SCUSA-2026/standings) for more details. Our team name was **CoogLimitExceeded**.",
         "date": "2025-11-8",
@@ -25,6 +41,15 @@
         "images": [
             "/images/updates/codepath_cert_TIP102.jfif",
             "/images/updates/codepath_cert_CYB101.jfif"
+        ]
+    },
+    {
+        "title": "Finished reading \"Clean Code\" by Robert C. Martin",
+        "content": "I finished reading *Clean Code by Robert C. Martin*. It was a great book that helped me understand the importance of writing clean code. Here are my thoughts and reflections on it:\n- I think it's valueable and I do recommend it to anyone who writes software in team-projects.\n- I do believe that some concepts in the book are bit outdated or not applicable to modern software development which now allows for more verstatility and flexibility in the codebase.\n - I appreciate the emphasis on writing tests and treating them as parts of the codebase rather than a second class citizen. I enjoyed reading how the *Quick and dirty* approach for writing unit tests was prone to creating a disaster later.\n - I found myself thinking more about how to name my variables and functions and that helped me read me own code better - which implies it helps my teammates a lot more.\n\n Overall, it was a great book and I learned a lot from it. I do recommend it. However, I would not follow it as a rule book, but rather a set of philosophies that commonly (but not always) manifest themselves when writing code in a team-based environment.",
+        "date": "2023-04-15",
+        "tags": ["Clean Code", "Books", "Agile Development"],
+        "images": [
+            "/images/updates/cleancode_cover.jpg"
         ]
     }
 
