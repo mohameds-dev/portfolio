@@ -2,7 +2,7 @@ import "./HeroSection.css";
 
 export default function HeroSection() {
   return (
-    <section id="hero" className="hero-section">
+    <section id="hero" className="hero-section scroll-mt-0">
       <img src="images/mo-hero-1.JPG" alt="Mohamed" className="hero-image" />
 
       <div className="hero-content">

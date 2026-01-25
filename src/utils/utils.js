@@ -25,6 +25,7 @@ import {
 import socialLinksData from "@/data/social_links.json";
 import projectsData from "@/data/projects.json";
 import skillsData from "@/data/skills.json";
+import personalUpdatesData from "@/data/personal_updates.json";
 
 // Map of icon names to their components
 const iconMap = {
@@ -107,4 +108,13 @@ export const loadSkillsWithIcons = () => {
 export const getProjectBySlug = (slug) => {
   const projectsWithSkills = loadProjectsWithSkills();
   return projectsWithSkills.find((project) => project.slug === slug);
+};
+
+export const loadPersonalUpdates = () => {
+  // Sort by date in reverse chronological order (latest first)
+  return [...personalUpdatesData].sort((a, b) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    return dateB - dateA; // Reverse order
+  });
 };
