@@ -4,6 +4,10 @@
   --background: #ffffff;
   --background-secondary: #f3f4f6;
   --foreground: #171717;
+  --accent: #06b6d4;
+  --accent-hover: #0891b2;
+  --accent-light: #22d3ee;
+  --accent-dark: #164e63;
 }
 
 @theme inline {
@@ -18,6 +22,10 @@
     --background: #111827;
     --background-secondary: #1f2937;
     --foreground: #ededed;
+    --accent: #22d3ee;
+    --accent-hover: #06b6d4;
+    --accent-light: #67e8f9;
+    --accent-dark: #0891b2;
   }
 }
 

@@ -20,7 +20,7 @@ const ContactSection = () => {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-4xl text-gray-600 hover:text-blue-600 transition-colors duration-300"
+                className="text-4xl text-gray-600 hover:text-cyan-500 transition-colors duration-300"
                 aria-label={link.name}
               >
                 <link.icon />

@@ -34,7 +34,7 @@ export function UpdateCard({ title, content, date, tags = [], images = [] }) {
             {tags.map((tag, index) => (
               <span
                 key={index}
-                className="px-2.5 py-1 text-xs font-medium bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full"
+                className="px-2.5 py-1 text-xs font-medium bg-cyan-50 dark:bg-cyan-900/30 text-cyan-700 dark:text-cyan-300 rounded-full"
               >
                 {tag}
               </span>
@@ -69,7 +69,7 @@ export function UpdateCard({ title, content, date, tags = [], images = [] }) {
               ),
               a: ({ node, ...props }) => (
                 <a
-                  className="text-blue-600 dark:text-blue-400 hover:underline"
+                  className="text-cyan-500 dark:text-cyan-400 hover:underline"
                   {...props}
                 />
               ),
@@ -125,7 +125,7 @@ export function UpdateCard({ title, content, date, tags = [], images = [] }) {
             e.stopPropagation();
             setIsExpanded(!isExpanded);
           }}
-          className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 text-sm font-medium transition-colors duration-200 hover:underline cursor-pointer"
+          className="text-cyan-500 dark:text-cyan-400 hover:text-cyan-600 dark:hover:text-cyan-300 text-sm font-medium transition-colors duration-200 hover:underline cursor-pointer"
           type="button"
         >
           {isExpanded ? "Show less" : "Show more"}

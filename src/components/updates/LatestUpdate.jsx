@@ -26,7 +26,7 @@ export default function LatestUpdate() {
               e.stopPropagation();
               openModal();
             }}
-            className="text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-medium transition-colors duration-200 cursor-pointer"
+            className="text-cyan-500 dark:text-cyan-400 hover:text-cyan-600 dark:hover:text-cyan-300 font-medium transition-colors duration-200 cursor-pointer"
             type="button"
           >
             Show all updates

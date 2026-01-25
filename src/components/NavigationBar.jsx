@@ -63,7 +63,7 @@ export default function NavigationBar() {
         <div className="flex items-center justify-between h-16">
           <Link
             href="/"
-            className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+            className="text-xl font-bold text-gray-900 dark:text-white hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors"
           >
             Mohamed A.
           </Link>
@@ -84,8 +84,8 @@ export default function NavigationBar() {
                   onClick={(e) => handleClick(e, item.href)}
                   className={`px-4 py-2 rounded-lg text-base font-semibold transition-all duration-200 ${
                     isActive
-                      ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20"
-                      : "text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-100 dark:hover:bg-gray-700/50"
+                      ? "text-cyan-500 dark:text-cyan-400 bg-cyan-50 dark:bg-cyan-900/20"
+                      : "text-gray-800 dark:text-gray-200 hover:text-cyan-500 dark:hover:text-cyan-400 hover:bg-gray-100 dark:hover:bg-gray-700/50"
                   }`}
                 >
                   {item.name}
@@ -97,7 +97,7 @@ export default function NavigationBar() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+            className="md:hidden text-gray-700 dark:text-gray-300 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors"
             aria-label="Menu"
           >
             {isMobileMenuOpen ? (
@@ -156,8 +156,8 @@ export default function NavigationBar() {
                     }}
                     className={`px-4 py-2 rounded-lg text-base font-semibold transition-all duration-200 ${
                       isActive
-                        ? "text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20"
-                        : "text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-gray-100 dark:hover:bg-gray-700/50"
+                        ? "text-cyan-500 dark:text-cyan-400 bg-cyan-50 dark:bg-cyan-900/20"
+                        : "text-gray-800 dark:text-gray-200 hover:text-cyan-500 dark:hover:text-cyan-400 hover:bg-gray-100 dark:hover:bg-gray-700/50"
                     }`}
                   >
                     {item.name}
