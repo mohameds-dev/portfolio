@@ -1,5 +1,12 @@
 [
     {
+        "title": "Started a new position: Course Facilitator for the Algorithms and Data Structures course at UH",
+        "content": "I am very excited to start a new position as a Course Facilitator for the Algorithms and Data Structures course at UH. I am very excited to be able to help students learn and grow in their skills.",
+        "date": "2026-01-20",
+        "tags": ["Course Facilitator", "UH", "Algorithms", "Data Structures", "C++", "Python"],
+        "images": []
+    },
+    {
         "title": "ICPC 2025 South Regionals Gold - 1st Place @ UH Site",
         "content": "Secured a gold medal at ICPC 2025 South Regionals by placing first at the UH site. Always proud to represent my university and deliver strong performances at ICPC. Check out the [ICPC 2025 South Regionals](https://icpc.global/regionals/finder/SCUSA-2026/standings) for more details. Our team name was **CoogLimitExceeded**.",
         "date": "2025-11-8",
@@ -8,6 +15,16 @@
             "/images/updates/icpc1.jfif",
             "/images/updates/icpc3.jfif",
             "/images/updates/icpc2.jfif"
+        ]
+    },
+    {
+        "title": "Completed CodePath Technical Interview Prep & Cybersecurity Courses",
+        "content": "Earned CodePath certificates in Intermediate Technical Interview Prep (TIP 102) and Intro to Cybersecurity (CYB 101), topped off with the Emerging Engineers Summit—great experience, highly recommended!",
+        "date": "2025-08-15",
+        "tags": ["CodePath", "Technical Interview Prep", "Cybersecurity", "TIP 102", "CYB 101", "Certificates"],
+        "images": [
+            "/images/updates/codepath_cert_TIP102.jfif",
+            "/images/updates/codepath_cert_CYB101.jfif"
         ]
     }
 
