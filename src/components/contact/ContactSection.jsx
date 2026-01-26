@@ -7,7 +7,7 @@ const ContactSection = () => {
   const socialLinks = loadSocialLinks();
 
   return (
-    <section id="contact" className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-gray-50 scroll-mt-16">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
           Get in Touch with Me
@@ -20,7 +20,7 @@ const ContactSection = () => {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-4xl text-gray-600 hover:text-blue-600 transition-colors duration-300"
+                className="text-4xl text-gray-600 hover:text-cyan-500 transition-colors duration-300"
                 aria-label={link.name}
               >
                 <link.icon />

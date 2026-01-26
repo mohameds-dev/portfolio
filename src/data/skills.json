@@ -72,6 +72,16 @@
           "name": "SQLite",
           "icon": "SiSqlite",
           "color": "#003B57"
+        },
+        "unity": {
+          "name": "Unity",
+          "icon": "SiUnity",
+          "color": "#000000"
+        },
+        "cloudflare": {
+          "name": "Cloudflare",
+          "icon": "SiCloudflare",
+          "color": "#F38020"
         }
       }
     },

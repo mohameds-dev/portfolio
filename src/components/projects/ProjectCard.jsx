@@ -1,7 +1,8 @@
 import { Skill } from "@/components/projects/ProjectSkill";
+import Link from "next/link";
 
 export function ProjectCard(props) {
-  const { title, description, image, link, skills } = props;
+  const { title, description, image, link, skills, slug } = props;
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 w-full">
@@ -23,14 +24,12 @@ export function ProjectCard(props) {
             skills.map((skill, index) => <Skill key={index} skill={skill} />)}
         </div>
 
-        <a
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
+        <Link
+          href={`/project/${slug}`}
+          className="inline-block px-4 py-2 bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 transition-colors duration-300"
         >
-          View Project
-        </a>
+          Learn More
+        </Link>
       </div>
     </div>
   );
