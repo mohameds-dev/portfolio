@@ -1,5 +1,15 @@
 {
   "projects": [
+    {
+      "title": "Echo Journal",
+      "slug": "echo-journal",
+      "description": "A voice-first journaling app that uses AI to transcribe, analyze, and 'echo' back insights from your day.",
+      "image": "/images/echo-journal.png",
+      "link": "https://github.com/mohameds-dev/cf_ai_echo_journal",
+      "skills": ["python", "cloudflare", "git"],
+      "live_demo_link": "https://echo-journal.mohameds-account.workers.dev/",
+      "markdown_path": "content/echo_journal_details.md"
+    },
     {"title":"The Tides Of Andunië",
       "slug": "the-tides-of-andunie",
       "description": "A top-down action RPG. Drop into a Tolkien-inspired world to defeat the pirates and save the Island.",
@@ -33,7 +43,7 @@
       "title": "Portfolio Website",
       "slug": "portfolio",
       "description": "A portfolio website for me to showcase my projects and skills.",
-      "image": "/images/mo-hero-1.JPG",
+      "image": "/images/portfolio_website_thumbnail.png",
       "link": "https://github.com/mohameds-dev/portfolio",
       "skills": ["nextjs", "tailwind", "react", "git"],
       "live_demo_link": null,

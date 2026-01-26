@@ -22,6 +22,7 @@ import {
   SiDart,
   SiSqlite,
   SiUnity,
+  SiCloudflare,
 } from "react-icons/si";
 import socialLinksData from "@/data/social_links.json";
 import projectsData from "@/data/projects.json";
@@ -57,6 +58,7 @@ const iconMap = {
   SiDart,
   SiSqlite,
   SiUnity,
+  SiCloudflare
 };
 
 const processSkillFields = (skillKey) => {
