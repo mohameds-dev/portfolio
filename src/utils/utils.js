@@ -21,6 +21,7 @@ import {
   SiTailwindcss,
   SiDart,
   SiSqlite,
+  SiUnity,
 } from "react-icons/si";
 import socialLinksData from "@/data/social_links.json";
 import projectsData from "@/data/projects.json";
@@ -55,6 +56,7 @@ const iconMap = {
   SiTailwindcss,
   SiDart,
   SiSqlite,
+  SiUnity,
 };
 
 const processSkillFields = (skillKey) => {

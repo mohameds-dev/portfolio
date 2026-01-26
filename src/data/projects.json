@@ -1,5 +1,14 @@
 {
   "projects": [
+    {"title":"The Tides Of Andunië",
+      "slug": "the-tides-of-andunie",
+      "description": "A top-down action RPG. Drop into a Tolkien-inspired world to defeat the pirates and save the Island.",
+      "image": "/images/TOA_Combat.png",
+      "link": "https://github.com/Junior4144/the-tides-of-andunie-web",
+      "skills": ["unity", "c#", "git"],
+      "live_demo_link": "https://nospoonstudio.itch.io/the-tides-of-andunie",
+      "markdown_path": "content/tides_of_andunie_details.md"
+    },
     {
       "title": "TallyCart (in progress ⏳️)",
       "slug": "tallycart",

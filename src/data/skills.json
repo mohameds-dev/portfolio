@@ -72,6 +72,11 @@
           "name": "SQLite",
           "icon": "SiSqlite",
           "color": "#003B57"
+        },
+        "unity": {
+          "name": "Unity",
+          "icon": "SiUnity",
+          "color": "#000000"
         }
       }
     },

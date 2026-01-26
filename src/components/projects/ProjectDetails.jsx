@@ -1,6 +1,7 @@
 import { Skill } from "@/components/projects/ProjectSkill";
 import { loadProjectsWithSkills } from "@/utils/utils";
 import ReactMarkdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
 
 export function ProjectDetails({
   project,
@@ -117,6 +118,7 @@ export function ProjectDetails({
         {markdownContent && (
           <div className="prose prose-lg dark:prose-invert max-w-none mb-8">
             <ReactMarkdown
+              rehypePlugins={[rehypeRaw]}
               components={{
                 h2: ({ node, ...props }) => (
                   <h2 className="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4" {...props} />
@@ -138,6 +140,12 @@ export function ProjectDetails({
                 ),
                 em: ({ node, ...props }) => (
                   <em className="italic" {...props} />
+                ),
+                video: ({ node, ...props }) => (
+                  <video 
+                    className="w-full rounded-lg shadow-lg my-6" 
+                    {...props}
+                  />
                 ),
               }}
             >
