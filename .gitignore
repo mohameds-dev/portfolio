@@ -44,3 +44,14 @@ next-env.d.ts
 my_scripts/*
 out.txt
 
+# private content source notes (resume bullets, internship notes, drafts)
+.content-source/
+
+
+# ganglia / gng tooling artifacts (local only)
+.gng/
+.gng.json
+.gngignore
+
+.claude/
+CLAUDE.md
