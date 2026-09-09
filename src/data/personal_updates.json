@@ -1,5 +1,26 @@
 [
     {
+        "title": "Back as Course Facilitator for Algorithms and Data Structures at UH for Fall 2026 class",
+        "content": "Fresh off wrapping my SRE internship at IBM, I'm returning as Course Facilitator for Algorithms and Data Structures at UH for the fall semester. Excited to get back to mentoring students and helping them build strong problem-solving fundamentals - and to bring some of what I picked up this summer back into how I support the course.",
+        "date": "2026-08-24",
+        "tags": ["Course Facilitator", "UH", "Algorithms", "Data Structures", "Teaching"],
+        "images": []
+    },
+    {
+        "title": "Wrapped my SRE internship at IBM",
+        "content": "Just finished my Site Reliability Engineer internship on the IBM Verify SRE team in Austin, TX. Alhamdulilah. Grateful for the experience. Over the internship I built 5 internal Python tools on a shared platform to remove recurring operational toil for the team:\n\n- Built a rule-based label migration tool (with an LLM fallback for ambiguous cases) that corrected labels across 6,000+ Jira issues, restoring utilization dashboard accuracy and surfacing thousands of hours of previously uncounted team credit\n- Built a schema-driven, multi-prompt LLM pipeline that analyzed 300 incident reports in parallel - extracting scope, timeline, root cause, and customer impact per issue - cutting analysis time from 2.8 hours to ~10 minutes (17x speedup)\n- Automated closure of 400+ stale Jira issues with ownership-attributed backlog reporting, plus a Slack reminder bot to close the loop from detection to follow-up\n- Auto-generated 90-100+ Jira issues for a documentation-migration effort spanning 100+ service teams\n- Underneath all 5 tools: a shared platform layer with a token-bucket rate limiter coordinating 128 concurrent workers, dry-run/rollback safety on every write, and 700+ unit tests\n\nBiggest takeaway: automation only creates value when it's safe to operate and easy to configure - the safety model (dry-run, rollback, human review gates) mattered as much as the automation itself. Grateful to the IBM Verify SRE team for the mentorship and trust this summer.",
+        "date": "2026-08-14",
+        "tags": ["IBM", "Site Reliability Engineering", "Internship", "Python", "LLM", "Automation"],
+        "images": []
+    },
+    {
+        "title": "Started a new position: Site Reliability Engineer Intern at IBM",
+        "content": "Excited to start a new chapter as a Site Reliability Engineer Intern on the IBM Verify SRE team in Austin, TX. Looking forward to learning from the team, contributing to real production systems, and making the jump from academic projects into professional engineering.",
+        "date": "2026-05-26",
+        "tags": ["IBM", "Site Reliability Engineering", "Internship", "Austin TX"],
+        "images": []
+    },
+    {
         "title": "Started a new position: Course Facilitator for the Algorithms and Data Structures course at UH",
         "content": "I am very excited to start a new position as a Course Facilitator for the Algorithms and Data Structures course at UH. I am very excited to be able to help students learn and grow in their skills.",
         "date": "2026-01-20",

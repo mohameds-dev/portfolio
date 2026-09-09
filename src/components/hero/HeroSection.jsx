@@ -4,7 +4,7 @@ import TypingAnimation from "./TypingAnimation";
 export default function HeroSection() {
   return (
     <section id="hero" className="hero-section scroll-mt-0">
-      <img src="images/mo-hero-1.JPG" alt="Mohamed" className="hero-image" />
+      <img src="images/mohamed-hero.jpg" alt="Mohamed" className="hero-image" />
 
       <div className="hero-content">
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6 animate-fade-in">
